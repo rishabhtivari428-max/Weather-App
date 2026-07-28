@@ -155,15 +155,12 @@ const Weather = () => {
             </p>
           </div>
         )}
-
-        {/* Loading State */}
         {loading && (
           <div className="py-10 text-center flex flex-col items-center justify-center space-y-2">
             <Loader2 className="w-7 h-7 text-indigo-400 animate-spin" />
             <p className="text-xs font-medium text-slate-400">Fetching weather data...</p>
           </div>
         )}
-
       </div>
     </div>
   )
